@@ -1,0 +1,75 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  --green: #00b172;
+  --white: #fff;
+  --text: #1a1a1a;
+  font-family: Helvetica;
+}
+
+.green-section {
+  background-color: var(--green);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  position: relative;
+}
+
+.green-section img {
+  height: 600px;
+}
+
+.left {
+  width: 60%;
+}
+
+.green-section header {
+  padding: 5px 0;
+  margin: 0;
+}
+
+.green-section h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 3.75rem;
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+  display: inline;
+}
+
+.green-section section h4 {
+  font-size: 2.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.green-section article {
+  margin: 2.5rem 0 0;
+  font-size: 1.25rem;
+  width: 30%;
+}
+
+.green-section article h4 {
+  margin-bottom: 1rem;
+}
+
+.green-section .green-section-logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
